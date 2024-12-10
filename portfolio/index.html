@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Bharath - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#home">A Bharath</a>
+      </div>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <div class="home-container">
+      <div class="intro">
+        <h1>Hello, I'm <span>A Bharath</span></h1>
+        <p>A passionate software developer shaping the future, one line of code at a time.</p>
+        <a href="#projects" class="button">Explore My Work</a>
+      </div>
+      <div class="profile-image">
+        <img src="file:///C:/Users/Guru/OneDrive/Desktop/portfolio/image-photoaidcom-cropped.jpg" alt="A Bharath">
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="https://github.com/Abharath19" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/a-bharath-5451a3233/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:abharath075@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+<section id="about" class="section about">
+  <h2>About Me</h2>
+  <p>
+    With expertise in Java, SQL, web development, and UI/UX design, I’ve crafted impactful solutions for dynamic challenges. My projects reflect my innovative spirit, attention to detail, and eagerness to stay ahead of industry trends.
+  </p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section skills">
+  <h2>Technical Skills</h2>
+  <div class="skills-content">
+    <div class="skills-category">
+      <h3>Programming Languages</h3>
+      <ul>
+        <li><span class="skill">Java</span></li>
+        <li><span class="skill">SQL</span></li>
+        <li><span class="skill">C</span></li>
+        <li><span class="skill">JavaScript</span></li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h3>Web Development</h3>
+      <ul>
+        <li><span class="skill">HTML</span></li>
+        <li><span class="skill">CSS</span></li>
+        <li><span class="skill">JavaScript</span></li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h3>Tools</h3>
+      <ul>
+        <li><span class="skill">Git</span></li>
+        <li><span class="skill">GitHub</span></li>
+        <li><span class="skill">JIRA</span></li>
+        <li><span class="skill">Maven</span></li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h3>Databases</h3>
+      <ul>
+        <li><span class="skill">JDBC</span></li>
+        <li><span class="skill">MySQL</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+<section id="projects" class="section projects">
+  <h2 class="section-title">Projects</h2>
+  <p class="section-subtitle"><b>Here are some of the projects I've worked on:</b></p><br><br>
+  <div class="projects-grid">
+    <div class="project">
+      <img src="file:///C:/Users/Guru/OneDrive/Desktop/portfolio/assests/animalintrusiondetectionsystem-210520074811-thumbnail.jpg" alt="Animal Intrusion Detection">
+      <div class="overlay">
+        <h3>Animal Intrusion Detection</h3>
+        <p>A system to detect and alert animal intrusions effectively.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+    <div class="project">
+      <img src="file:///C:/Users/Guru/OneDrive/Desktop/portfolio/assests/bank-management.webp" alt="Bank Management System">
+      <div class="overlay">
+        <h3>Bank Management System</h3>
+        <p>An efficient tool for managing banking operations seamlessly.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+    <div class="project">
+      <img src="file:///C:/Users/Guru/OneDrive/Desktop/portfolio/assests/ocr.jpeg" alt="Responsive Portfolio">
+      <div class="overlay">
+        <h3>Text extraction from image using tessarct OCR</h3>
+        <p>A creative and responsive portfolio to showcase your work.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+  <h2 class="section-title">Contact Me</h2>
+  <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly chat!</p>
+  <div class="contact-container">
+    <form id="contact-form" action="mailto:your-email@example.com" method="post">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+      </div>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="button">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> abharath075@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91 9876543210</p>
+      <p><i class="fas fa-map-marker-alt"></i> Bengaluru, India</p>
+    </div>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="section resume">
+  <h2 class="section-title">Resume</h2>
+  <p class="section-subtitle">Download my resume below</p>
+  
+  <div class="resume-container">
+    <a href="https://drive.google.com/file/d/1_YruiHrGvGa5U7Gn5ZJU2xc3yAG33lbg/view?usp=drivesdk" download class="button">Download My Resume</a>
+    
+    <!-- Optional: Embedded PDF Viewer -->
+    
+  </div>
+</section>
+
+   
+
+  
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 A Bharath. Built with confidence, creativity, and <i class="fas fa-heart"></i>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
